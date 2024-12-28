@@ -5,7 +5,7 @@ import { setSearchQuery } from '@/Redux/pokemonSlice';
 import { Search } from 'lucide-react';
 import LogoCarousel from './LogoCarousel.jsx'
 import LatestPokemons from './LatestPokemons.jsx';
-import PokemonTypeFilter from './PokemonTypeFilter.jsx';
+
 
 const Hero = () => {
   const [query, setQuery] = useState('');
